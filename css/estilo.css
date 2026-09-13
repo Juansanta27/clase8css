@@ -8,31 +8,56 @@ body{
 }
 header {
     width: 80%;
-    height: 100%;
     background-color: white;
-    margin: 0%;auto;
+    margin: 25px auto;
     border: 1px solid #02735E;
     border-radius: 25px;
     margin-top: 25px;
+    padding: auto;
 }
 .menu{
     text-align: center;
 }
 .menu a{
+    display: inline-block;
     margin-right: 10px;
-    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
     font-weight: bold;
-    color: aquamarine;
-    font-size: 24px;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: rgb(1, 94, 63);  
 }
+.menu a:hover{
+    background-color: rgb(229, 233, 233);
+}
+
 .hero{
-    width: 100px;
-    background-color: #93BF50;
+    width: 100%;
+    height: 250px;
+   background-image: url(/img/f3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center 40%;
     text-align: center;
-    padding: 20px;
+    padding: 30px 15px;
     margin-top: 10px;
-    margin bottom: 10px;
+    max-width: 100%;
+    margin-bottom: 1px;
+    
 }
+ .hero h3{
+    margin-top: 20px;
+    color: #f1f8f7;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero button{
+    margin-top: 15px;
+    color: rgb(3, 65, 44);
+    padding: 10px;
+    border-radius: 14px;
+} 
 .hero h1{
       font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
@@ -46,27 +71,85 @@ h2{
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  color: #02735E;
+  color: #02302a;
+  
 }
+
 .Empresa{
-    width: 80px;
-    height: 100px;
-    background-color: aqua;
-    margin: 0 auto;
-    padding: 8px;
+    width: 80%;
+    height: auto;
+    background-color: #038C65;
+    margin: 20px auto;
+    padding: 20px;
     border-radius: 9px;
 
 }
 .Empresa h2{
     text-align: center;
     margin-bottom: 10px;
+    color: rgb(3, 7, 75);
 }
 .Empresa button{
-    margin-top: 20px;
-    background-color: aliceblue;
+    margin-top: 15px;
+    color: rgb(3, 65, 44);
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 14px;
 
+}
+.Empresa p{
+    width: 80%;
+    height: auto;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Servicios{
+    width: 100%;
+    height: 100%;
+    background-color: #59f59f;
+    margin-top: 20PX;
+    padding: 25PX;
+}
+.Servicios button{
+      margin-top: 15px;
+    color: rgb(3, 65, 44);
+    padding: 10px;
+    border-radius: 14px;
+
+}
+.Galeria{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.Galeria h2{
+    text-align: center;
+
+}
+.Galeria button{
+     margin-top: 15px;
+    color: rgb(3, 65, 44);
+    padding: 10px;
+    border-radius: 14px;
+
+}
+.Contacto{
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+.Contacto button{
+    margin-top: 15px;
+    color: rgb(3, 65, 44);
+    padding: 10px;
+    border-radius: 14px;
+    text-align: center;
+
+} 
+footer {
+    background-color: #038C65;
+    text-align: center;
+    padding: 25px;
+    height: 50%;
 }
 
 
